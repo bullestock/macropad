@@ -22,10 +22,10 @@ enum layers {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     
-    [_BASE] = LAYOUT_ortho_4x4(A(KC_TAB),  S(A(KC_TAB)),   _______,    _______,  \
-                               _______,    _______,        _______,    A(KC_F4), \
-                               G(KC_F1),   G(KC_F2),       G(KC_F3),   G(KC_F4),
-                               MO(_FN1),   _______,        _______,    _______),
+    [_BASE] = LAYOUT_ortho_4x4(A(KC_TAB),  S(A(KC_TAB)), A(KC_F13),  A(KC_F4), \
+                               KC_F13,     KC_F14,       KC_F15,     KC_F16,   \
+                               KC_F17,     KC_F18,       KC_F19,     KC_F20,   \
+                               KC_F21,     KC_F22,       KC_F23,     KC_F24), \
 
     [_FN1] = LAYOUT_ortho_4x4(RGB_TOG,  RGB_HUI,  RGB_SAI,  RGB_VAI, \
                               RGB_MOD,  RGB_HUD,  RGB_SAD,  RGB_VAD, \
