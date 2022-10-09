@@ -1,4 +1,4 @@
-if window.wait_for_exist('Terminal', timeOut=0):
-    window.activate('Terminal', False, False)
+if window.wait_for_exist('terminator', timeOut=0):
+    window.activate('terminator', False, False)
 else:
-    system.exec_command('xfce4-terminal', getOutput=False)
+    system.exec_command('terminator', getOutput=False)
