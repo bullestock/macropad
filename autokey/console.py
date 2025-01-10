@@ -10,9 +10,15 @@ def is_process_running(processName):
                 return True
         except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
             pass
-    return False;
+    return False
+
+print('console.py check')
 
 if is_process_running('terminator'):
+    print('console.py activate')
     window.activate('terminator', matchClass=True)
 else:
-    system.exec_command('terminator', getOutput=False)
+    print('console.py exec')
+    system.exec_command('(cd && terminator)', getOutput=False)
+
+#print("terminator: %s" % is_process_running('terminator'))
