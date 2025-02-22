@@ -23,13 +23,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.1799844"
-     inkscape:cx="730.51811"
-     inkscape:cy="409.75117"
-     inkscape:window-width="2560"
-     inkscape:window-height="1382"
+     inkscape:zoom="1.2043135"
+     inkscape:cx="727.80052"
+     inkscape:cy="302.24688"
+     inkscape:window-width="1920"
+     inkscape:window-height="1029"
      inkscape:window-x="0"
-     inkscape:window-y="480"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      showgrid="false" />
@@ -40,9 +40,9 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none"
+       style="fill:none;stroke:#000000;stroke-width:1.00656;stroke-dasharray:none"
        id="rect1"
-       width="380"
+       width="385"
        height="160"
        x="0"
        y="-1.4210855e-14"
@@ -54,7 +54,7 @@
        width="20"
        height="20"
        x="10"
-       y="11.5"
+       y="8.5"
        rx="1"
        ry="1" />
     <rect
@@ -62,8 +62,8 @@
        id="rect3"
        width="77"
        height="20"
-       x="47.5"
-       y="11.5"
+       x="46"
+       y="8.5"
        rx="1"
        ry="1" />
     <rect
@@ -71,8 +71,8 @@
        id="rect4"
        width="77"
        height="20"
-       x="135"
-       y="11.5"
+       x="133"
+       y="8.5"
        rx="1"
        ry="1" />
     <rect
@@ -80,8 +80,8 @@
        id="rect5"
        width="77"
        height="20"
-       x="222"
-       y="11.5"
+       x="219"
+       y="8.5"
        rx="1"
        ry="1" />
     <rect
@@ -98,13 +98,13 @@
        id="rect7"
        width="58"
        height="39"
-       x="309.00006"
+       x="305"
        y="47"
        rx="1"
        ry="1" />
     <path
        id="rect8"
        style="fill:none;stroke:#000000;stroke-width:0.716115"
-       d="m 329.00033,103.99985 c -0.554,0 -1.00046,0.44594 -1.00046,0.99994 v 18.00045 h -17.99993 c -0.554,0 -0.99994,0.44594 -0.99994,0.99994 v 17.99994 c 0,0.554 0.44594,0.99994 0.99994,0.99994 h 19.00039 17.99993 18.99988 c 0.554,0 0.99993,-0.44594 0.99993,-0.99994 v -17.99994 c 0,-0.554 -0.44593,-0.99994 -0.99993,-0.99994 H 348.0002 v -18.00045 c 0,-0.554 -0.44594,-0.99994 -0.99994,-0.99994 z" />
+       d="m 325.00033,103.99985 c -0.554,0 -1.00046,0.44594 -1.00046,0.99994 v 18.00045 h -17.99993 c -0.554,0 -0.99994,0.44594 -0.99994,0.99994 v 17.99994 c 0,0.554 0.44594,0.99994 0.99994,0.99994 h 19.00039 17.99993 18.99988 c 0.554,0 0.99993,-0.44594 0.99993,-0.99994 v -17.99994 c 0,-0.554 -0.44593,-0.99994 -0.99993,-0.99994 H 344.0002 v -18.00045 c 0,-0.554 -0.44594,-0.99994 -0.99994,-0.99994 z" />
   </g>
 </svg>
