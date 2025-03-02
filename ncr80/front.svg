@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="380mm"
+   width="400mm"
    height="170mm"
-   viewBox="0 0 380 170"
+   viewBox="0 0 400 170"
    version="1.1"
    id="svg1"
    inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
-   sodipodi:docname="front.svg"
+   sodipodi:docname="front5.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.2043135"
-     inkscape:cx="365.35337"
-     inkscape:cy="301.83171"
+     inkscape:zoom="1.0972329"
+     inkscape:cx="695.84135"
+     inkscape:cy="354.07251"
      inkscape:window-width="2560"
      inkscape:window-height="1382"
      inkscape:window-x="0"
@@ -54,7 +54,7 @@
        width="20"
        height="20"
        x="10"
-       y="18"
+       y="18.5"
        rx="1"
        ry="1" />
     <rect
@@ -62,8 +62,8 @@
        id="rect3"
        width="77"
        height="20"
-       x="42.5"
-       y="18"
+       x="48"
+       y="18.5"
        rx="1"
        ry="1" />
     <rect
@@ -71,8 +71,8 @@
        id="rect4"
        width="77"
        height="20"
-       x="130.5"
-       y="18"
+       x="133.5"
+       y="18.5"
        rx="1"
        ry="1" />
     <rect
@@ -80,31 +80,31 @@
        id="rect5"
        width="77"
        height="20"
-       x="217"
-       y="18"
-       rx="1"
-       ry="1" />
-    <rect
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none"
-       id="rect6"
-       width="285"
-       height="96"
-       x="10"
-       y="57"
-       rx="1"
-       ry="1" />
-    <rect
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none"
-       id="rect7"
-       width="58"
-       height="39"
-       x="306.5"
-       y="57"
+       x="219"
+       y="18.5"
        rx="1"
        ry="1" />
     <path
        id="rect8"
        style="fill:none;stroke:#000000;stroke-width:0.716115"
-       d="m 326.50033,113.99985 c -0.554,0 -1.00046,0.44594 -1.00046,0.99994 v 18.00045 h -17.99993 c -0.554,0 -0.99994,0.44594 -0.99994,0.99994 v 17.99994 c 0,0.554 0.44594,0.99994 0.99994,0.99994 h 19.00039 17.99993 18.99988 c 0.554,0 0.99993,-0.44594 0.99993,-0.99994 v -17.99994 c 0,-0.554 -0.44593,-0.99994 -0.99993,-0.99994 H 345.5002 v -18.00045 c 0,-0.554 -0.44594,-0.99994 -0.99994,-0.99994 z" />
+       d="m 324.50033,113.99985 c -0.554,0 -1.00046,0.44594 -1.00046,0.99994 v 18.00045 h -17.99993 c -0.554,0 -0.99994,0.44594 -0.99994,0.99994 v 17.99994 c 0,0.554 0.44594,0.99994 0.99994,0.99994 h 19.00039 17.99993 18.99988 c 0.554,0 0.99993,-0.44594 0.99993,-0.99994 v -17.99994 c 0,-0.554 -0.44593,-0.99994 -0.99993,-0.99994 H 343.5002 v -18.00045 c 0,-0.554 -0.44594,-0.99994 -0.99994,-0.99994 z" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.00175;stroke-dasharray:none"
+       id="rect14"
+       width="286"
+       height="96"
+       x="10"
+       y="57"
+       rx="1.0035088"
+       ry="1" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none"
+       id="rect15"
+       width="58"
+       height="39"
+       x="304.5"
+       y="57"
+       rx="1"
+       ry="1" />
   </g>
 </svg>
