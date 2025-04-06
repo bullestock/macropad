@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="400mm"
+   height="170mm"
+   viewBox="0 0 400 170"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.1 (93de688d07, 2025-03-30)"
+   sodipodi:docname="frame-top.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.118692"
+     inkscape:cx="639.58621"
+     inkscape:cy="81.791947"
+     inkscape:window-width="2560"
+     inkscape:window-height="1382"
+     inkscape:window-x="0"
+     inkscape:window-y="480"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path25"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-linejoin:round"
+       d="M 385,15 V 5 c 0,-2.77 -2.23,-5 -5,-5 H 5 C 2.23,0 0,2.23 0,5 v 10 h 8 m 0,0 V 13 C 8,10.507 10.137325,8.5 12.792208,8.5 H 335 V 3 h 42 c 0,4.1366902 -0.0318,8.200514 -0.044,12 H 385"
+       sodipodi:nodetypes="csssscccssccccc" />
+    <path
+       id="path28"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none"
+       d="m 392.81865,11.152262 h 7.99356 m -7.93747,-0.03143 c -0.008,2.16049 0,-0.1076 0,2 0,2.493 -2.13732,4.5 -4.79221,4.5 H 28.666935 c -2.654883,0 -4.792209,-2.007 -4.792209,-4.5 0,-1.63479 -0.04039,-0.51903 0,-2 m 377.000014,0 v 10 c 0,2.77 -2.23,5 -5,5 H 20.874726 c -2.77,0 -5.047366,-2.21251 -5,-5 v -10 h 8" />
+    <path
+       id="path30"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none"
+       d="m 385,44.104167 v -10 c 0,-2.770001 -2.23,-5.000001 -5,-5.000001 H 5 c -2.77,0 -5,2.23 -5,5.000001 v 10 h 8 m 0,0 v -2 c 0,-2.493 2.137325,-4.5 4.792208,-4.5 H 335 v -5.500001 h 42 c 0,4.136691 -0.0318,8.200515 -0.044,12.000001 H 385"
+       sodipodi:nodetypes="csssscccssccccc" />
+    <path
+       id="path31"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none"
+       d="m 392.81865,40.785599 h 7.99356 m -7.93747,-0.03143 c -0.008,2.16049 0,-0.1076 0,2 0,2.493 -2.13732,4.5 -4.79221,4.5 H 28.666935 c -2.654883,0 -4.792209,-2.007 -4.792209,-4.5 0,-1.63479 -0.04039,-0.51903 0,-2 m 377.000014,0 v 10 c 0,2.77 -2.23,5 -5,5 H 20.874726 c -2.77,0 -5.047366,-2.21251 -5,-5 v -10 h 8" />
+    <path
+       id="path35"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none"
+       d="m 353,58.243226 v 2.971707 m 0,-3.006438 H 5 c -2.77,0 -5,2.229835 -5,4.999836 v 10 h 8 m 0,0 v -2 c 0,-2.493 2.137325,-4.5 4.792208,-4.5 H 335 V 61.20833 h 18" />
+    <path
+       id="path36"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none"
+       d="m 2e-6,78.465268 v -2.97171 m 0,3.00644 H 348 c 2.77,0 5,-2.22984 5,-4.99984 v -10 h -8 m 0,0 v 2 c 0,2.493 -2.13733,4.5 -4.79221,4.5 H 18.000002 v 5.5 H 2.0000001e-6" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.899399;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect36"
+       width="140"
+       height="8"
+       x="0.88983339"
+       y="80.562325" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.899399;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect37"
+       width="140"
+       height="8"
+       x="143.76482"
+       y="80.562325" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.899399;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect38"
+       width="140"
+       height="8"
+       x="143.76472"
+       y="91.145653" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.899399;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect39"
+       width="140"
+       height="8"
+       x="0.88973409"
+       y="91.145653" />
+  </g>
+</svg>
