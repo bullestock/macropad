@@ -24,7 +24,7 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.0972329"
-     inkscape:cx="697.2084"
+     inkscape:cx="696.75271"
      inkscape:cy="354.0725"
      inkscape:window-width="2560"
      inkscape:window-height="1382"
@@ -48,57 +48,53 @@
        y="0"
        rx="5"
        ry="5" />
-    <g
-       id="g1"
-       transform="translate(0,5)">
-      <circle
-         style="fill:none;stroke:#000000;stroke-width:0.215733;stroke-linejoin:round"
-         id="path1"
-         cx="26.5"
-         cy="53.5"
-         r="1.6" />
-      <circle
-         style="fill:none;stroke:#000000;stroke-width:0.215733;stroke-linejoin:round"
-         id="circle1"
-         cx="221"
-         cy="27.5"
-         r="1.6" />
-      <circle
-         style="fill:none;stroke:#000000;stroke-width:0.215733;stroke-linejoin:round"
-         id="circle2"
-         cx="135"
-         cy="27.5"
-         r="1.6" />
-      <circle
-         style="fill:none;stroke:#000000;stroke-width:0.215733;stroke-linejoin:round"
-         id="circle3"
-         cx="57.5"
-         cy="122.5"
-         r="1.6" />
-      <circle
-         style="fill:none;stroke:#000000;stroke-width:0.215733;stroke-linejoin:round"
-         id="circle4"
-         cx="125"
-         cy="113"
-         r="1.6" />
-      <circle
-         style="fill:none;stroke:#000000;stroke-width:0.215733;stroke-linejoin:round"
-         id="circle5"
-         cx="254.5"
-         cy="117"
-         r="1.6" />
-      <circle
-         style="fill:none;stroke:#000000;stroke-width:0.215733;stroke-linejoin:round"
-         id="circle6"
-         cx="357"
-         cy="129.5"
-         r="1.6" />
-      <circle
-         style="fill:none;stroke:#000000;stroke-width:0.215733;stroke-linejoin:round"
-         id="circle7"
-         cx="357"
-         cy="53.5"
-         r="1.6" />
-    </g>
+    <circle
+       style="fill:none;stroke:#000000;stroke-width:0.215733;stroke-linejoin:round"
+       id="path1"
+       cx="26.5"
+       cy="58.5"
+       r="1.6" />
+    <circle
+       style="fill:none;stroke:#000000;stroke-width:0.215733;stroke-linejoin:round"
+       id="circle1"
+       cx="221"
+       cy="32.5"
+       r="1.6" />
+    <circle
+       style="fill:none;stroke:#000000;stroke-width:0.215733;stroke-linejoin:round"
+       id="circle2"
+       cx="135"
+       cy="32.5"
+       r="1.6" />
+    <circle
+       style="fill:none;stroke:#000000;stroke-width:0.215733;stroke-linejoin:round"
+       id="circle3"
+       cx="57.5"
+       cy="127.5"
+       r="1.6" />
+    <circle
+       style="fill:none;stroke:#000000;stroke-width:0.215733;stroke-linejoin:round"
+       id="circle4"
+       cx="125"
+       cy="118"
+       r="1.6" />
+    <circle
+       style="fill:none;stroke:#000000;stroke-width:0.215733;stroke-linejoin:round"
+       id="circle5"
+       cx="254.5"
+       cy="128"
+       r="1.6" />
+    <circle
+       style="fill:none;stroke:#000000;stroke-width:0.215733;stroke-linejoin:round"
+       id="circle6"
+       cx="357"
+       cy="134.5"
+       r="1.6" />
+    <circle
+       style="fill:none;stroke:#000000;stroke-width:0.215733;stroke-linejoin:round"
+       id="circle7"
+       cx="357"
+       cy="58.5"
+       r="1.6" />
   </g>
 </svg>
