@@ -12,7 +12,7 @@ R = 5
 # overall length
 L = 170
 # overall width
-W = 60
+W = 70
 
 LARGE_INSERT_R = 4/2
 LARGE_INSERT_L = 5
