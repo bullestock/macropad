@@ -2,22 +2,12 @@
 from build123d import *
 from ocp_vscode import *
 import math
+from defs import *
 
-# height
-H = 17.5
-# frame thickness
-TH = 8
-# rounding radius
-R = 5
 # overall length
 L = 170
 # overall width
 W = 70
-
-LARGE_INSERT_R = 4/2
-LARGE_INSERT_L = 5
-SMALL_INSERT_R = 3.2/2
-SMALL_INSERT_L = 6
 
 F = 3.2/2
 hole_coords = [ (2.4+F, 133.444+F), (2.4+F, 33.444+F),
@@ -62,6 +52,11 @@ with BuildPart() as o:
     extrude(amount=-SMALL_INSERT_L, mode=Mode.SUBTRACT)
 
     chamfer(o.edges().filter_by(Axis.Z), length=1)
+    # groove
+    with BuildSketch(Plane.XY) as sk:
+        with Locations((W, TH/2), (W, L - TH/2)):
+            Circle(radius=TONGUE_DIA/2)
+    extrude(amount=H, mode=Mode.SUBTRACT)    
 
 show(o)    
-export_step(o.part, "frame-side.step")
+export_step(o.part, "frame-side-left.step")

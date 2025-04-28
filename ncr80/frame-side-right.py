@@ -1,30 +1,26 @@
 # %%
 from build123d import *
 from ocp_vscode import *
-import math
+import copy, math
 
-# height
-H = 17.5
-# frame thickness
-TH = 8
-# rounding radius
-R = 5
+from defs import *
+
 # overall length
 L = 170
 # overall width
 W = 70
 
-LARGE_INSERT_R = 4/2
-LARGE_INSERT_L = 5
-SMALL_INSERT_R = 3.2/2
-SMALL_INSERT_L = 6
-
 PCB_W = 43
-CONN_W = 13
+CONN_W = 10
 
 F = 3.2/2
 hole_coords = [ (2.4+F, 133.444+F), (2.4+F, 33.444+F),
-                (40.9+17+F, 2.702+F), (40.9+F, 164.098+F) ]
+                (40.9+F, 2.702+F), (40.9+F, 164.098+F) ]
+
+hole_coords2 = copy.copy(hole_coords)
+h2 = hole_coords2[2]
+h2 = (h2[0] + 17, h2[1])
+hole_coords2[2] = h2
 
 with BuildPart() as o:
     with BuildSketch(Plane.XY) as o_sk:
@@ -55,7 +51,7 @@ with BuildPart() as o:
     extrude(amount=H)
     # top inserts
     with BuildSketch(Location((0, 0, H))):
-        with Locations(hole_coords):
+        with Locations(hole_coords2):
             Circle(radius = SMALL_INSERT_R)
     extrude(amount=-SMALL_INSERT_L, mode=Mode.SUBTRACT)
     chamfer(o.edges().filter_by(Axis.Z), length=1)
@@ -66,12 +62,12 @@ with BuildPart() as o:
     extrude(amount=10)
     # pcb cutout
     with BuildSketch(Location((0, 0, H))):
-        with Locations((PCB_W/2 + TH, TH)):
-            Rectangle(PCB_W, 16 - 3)
+        with Locations((PCB_W/2 + TH, TH + 2)):
+            Rectangle(PCB_W, 16 - 0)
     extrude(amount=-7.5, mode=Mode.SUBTRACT)
     # connector cutout
     with BuildSketch(Location((0, 0, H))):
-        with Locations((PCB_W/2 + TH, 0)):
+        with Locations((PCB_W/2 + TH - 4, 0)):
             Rectangle(CONN_W, TH)
     extrude(amount=-7.5, mode=Mode.SUBTRACT)
     # bottom inserts
@@ -79,7 +75,12 @@ with BuildPart() as o:
         with Locations(hole_coords):
             Circle(radius = LARGE_INSERT_R)
     extrude(amount=LARGE_INSERT_L, mode=Mode.SUBTRACT)
+    # groove
+    with BuildSketch(Plane.XY) as sk:
+        with Locations((W, TH/2), (W, L - TH/2)):
+            Circle(radius=TONGUE_DIA/2)
+    extrude(amount=H, mode=Mode.SUBTRACT)    
 
 
 show(o)    
-export_step(o.part, "frame-side.step")
+export_step(o.part, "frame-side-right.step")
